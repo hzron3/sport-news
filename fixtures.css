@@ -1,0 +1,100 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting default font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Fixture styles */
+.fixtures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fixture-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 10px);
+}
+
+.fixture-item h3 {
+  color: #333;
+}
+
+.fixture-item p {
+  margin: 5px 0;
+}
+
+/* Different color schemes */
+.fixture-item:nth-child(odd) {
+  background-color: #ff6f61;
+}
+
+.fixture-item:nth-child(even) {
+  background-color: #5a4fcf;
+}
+
+header,
+footer {
+  background-color: #333;
+}
+
+header h1,
+nav ul li a {
+  color: #fff;
+}
